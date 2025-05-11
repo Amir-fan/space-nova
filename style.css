@@ -957,3 +957,419 @@ footer p {
     }
 }
 
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 3rem;
+  }
+
+  .hero .container .content .text p {
+    width: 70%;
+  }
+
+  .why-us .container .content .title p {
+    width: 60%;
+  }
+
+  .about .container .content .text-action {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .container .content .text p {
+    width: 80%;
+  }
+
+  .why-us .container .content .reason {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-us .container .content .reason .card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .about .container .content .text-action {
+    width: 70%;
+  }
+
+  .destination .container .content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .destination .container .content .title {
+    grid-column: span 2;
+  }
+
+  .destination .container .content .saturn,
+  .destination .container .content .moon,
+  .destination .container .content .blackhole,
+  .destination .container .content .mars {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  header .container .content .logo img {
+    width: 60px;
+  }
+
+  header .container .content .logo a {
+    font-size: 1rem;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 2rem;
+  }
+
+  .hero .container .content .text p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .hero .container .content .text a {
+    width: 30%;
+  }
+
+  .why-us .container .content .title h1 {
+    font-size: 2rem;
+  }
+
+  .why-us .container .content .title p {
+    width: 90%;
+  }
+
+  .about .container .content .text-action {
+    width: 90%;
+  }
+
+  .about .container .content h1 {
+    font-size: 2rem;
+  }
+
+  .status .container .content .planet .earth {
+    width: 25em;
+    height: 25em;
+  }
+
+  .status .container .content .planet .earth .moon {
+    width: 4em;
+    height: 4em;
+    left: -8em;
+  }
+
+  .contact .container .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact .container .content .left-side,
+  .contact .container .content .right-side {
+    width: 100%;
+  }
+
+  .status .container .content .planet .desc {
+    position: relative;
+    transform: none;
+    width: 100%;
+    margin: 1rem 0;
+    align-items: center !important;
+  }
+
+  .status .container .content .planet .desc-1,
+  .status .container .content .planet .desc-2,
+  .status .container .content .planet .desc-3,
+  .status .container .content .planet .desc-4,
+  .status .container .content .planet .desc-5,
+  .status .container .content .planet .desc-6 {
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .status .container .content .planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .status .container .content .planet .earth {
+    width: 20em;
+    height: 20em;
+    margin: 2rem 0;
+  }
+
+  .status .container .content .planet .earth .moon {
+    width: 3em;
+    height: 3em;
+    left: -6em;
+  }
+
+  .destination .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .destination .container .content .items {
+    width: 100%;
+    min-height: 250px;
+    margin-bottom: 1rem;
+  }
+
+  .destination .container .content .title {
+    margin-bottom: 2rem;
+  }
+
+  .destination .container .content .title a {
+    width: 40%;
+  }
+
+  .about .container .content {
+    align-items: center;
+  }
+
+  .about .container .content .text-action {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about .container .content a {
+    width: 40%;
+  }
+
+  .hero .container .content .moon {
+    width: 40em;
+    height: 40em;
+    bottom: -40%;
+  }
+
+  .why-us .container .content {
+    padding: 4rem 0;
+    height: auto;
+  }
+
+  .why-us .container .content .reason {
+    width: 100%;
+  }
+
+  .why-us .container .content .reason .card {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+  }
+
+  .contact .container .content {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  .contact .container .content .right-side form {
+    width: 100%;
+  }
+
+  .contact .container .content .right-side form button {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero .container .content .text a {
+    width: 40%;
+  }
+
+  .why-us .container .content .reason .card {
+    width: 100%;
+  }
+
+  .destination .container .content {
+    grid-template-columns: 1fr;
+  }
+
+  .destination .container .content .title,
+  .destination .container .content .saturn,
+  .destination .container .content .moon,
+  .destination .container .content .eyropa,
+  .destination .container .content .mercury,
+  .destination .container .content .blackhole,
+  .destination .container .content .titan,
+  .destination .container .content .neptune,
+  .destination .container .content .mars {
+    grid-column: span 1;
+  }
+
+  .status .container .content .planet .earth {
+    width: 20em;
+    height: 20em;
+  }
+
+  .status .container .content .planet .earth .moon {
+    width: 3em;
+    height: 3em;
+    left: -6em;
+  }
+
+  .status .container .content .planet .desc {
+    font-size: 0.9rem;
+  }
+
+  .contact .container .content .right-side form {
+    padding: 2rem;
+  }
+
+  .contact .container .content .right-side form .row-1,
+  .contact .container .content .right-side form .row-2 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact .container .content .right-side form .row-1 input,
+  .contact .container .content .right-side form .row-2 input {
+    width: 100%;
+  }
+
+  .hero .container .content .text h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hero .container .content .text p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .hero .container .content .text a {
+    width: 60%;
+  }
+
+  .status .container .content .planet .earth {
+    width: 15em;
+    height: 15em;
+  }
+
+  .status .container .content .planet .earth .moon {
+    width: 2em;
+    height: 2em;
+    left: -4em;
+  }
+
+  .destination .container .content .items {
+    min-height: 200px;
+  }
+
+  .destination .container .content .items h1 {
+    font-size: 1.2rem;
+  }
+
+  .contact .container .content .right-side form {
+    padding: 1.5rem;
+  }
+
+  .contact .container .content .left-side h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Fix for mobile menu */
+@media screen and (max-width: 768px) {
+  header .container .content .extra-nav button {
+    width: 120px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Fix for mobile animations */
+@media screen and (max-width: 768px) {
+  [data-aos] {
+    transform: none !important;
+    opacity: 1 !important;
+    transition: none !important;
+  }
+}
+
+/* Fix for mobile scrolling */
+@media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+}
+
+/* Fix for mobile images */
+@media screen and (max-width: 768px) {
+  .destination .container .content .items {
+    min-height: 200px;
+  }
+}
+
+/* Fix for mobile text */
+@media screen and (max-width: 576px) {
+  .hero .container .content .text p span {
+    display: inline-block;
+  }
+}
+
+/* Fix for header on mobile */
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 1rem 0;
+    background: var(--black);
+  }
+
+  header .container .content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header .container .content .extra-nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header .container .content .extra-nav button {
+    width: 100%;
+  }
+}
+
+/* Fix for spacing on mobile */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 2rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
